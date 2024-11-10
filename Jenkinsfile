@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Test') {
             steps {
-                sh 'make dvfdtest'
+                sh 'make test'
             }
         }
         stage('Deploy') {
