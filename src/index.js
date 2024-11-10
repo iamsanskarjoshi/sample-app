@@ -20,7 +20,7 @@ app.get('/RJ', (req, res) => {
   res.send('Hello RJ!')
 })
 app.get('/Indore', (req, res) => {
-  res.send('Hello Indore!')
+  res.send('Hello Indore, my love!')
 })
 
 app.listen(process.env.PORT || 3001, () => {
