@@ -19,6 +19,9 @@ app.get('/SJ', (req, res) => {
 app.get('/RJ', (req, res) => {
   res.send('Hello RJ!')
 })
+app.get('/Indore', (req, res) => {
+  res.send('Hello Indore!')
+})
 
 app.listen(process.env.PORT || 3001, () => {
   console.log(`Example app listening on port ${process.env.PORT}`)
